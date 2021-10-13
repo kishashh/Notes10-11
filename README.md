@@ -47,3 +47,11 @@ catch(IllegalSizeException){
   System.out.println("Size is out of bounds");
 }
 ```
+
+## 10/13
+
+* `((int[]) i.get(0))[0];`: gets a specific item from a 2D ArrayList [in this case item (0,0)]
+* `int[] a = new int[Integer.MAX_VALUE];`: usually results in a memory error
+* `LinkedList<String> ltr = new LinkedList<>();`: Like array list and should try instead of ArrayList
+* 
+
